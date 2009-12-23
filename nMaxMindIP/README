@@ -1,0 +1,22 @@
+GeoIP C# API 2.0
+================
+
+A C# Library for accessing the MaxMindIP database. Forked from the "official" code to change it to use .NET coding standards and
+to add tests and improve where possible.
+
+To run the tests get the latest database for the appropiate tests and place it in the test project directory 
+and mark it as content - always copy
+
+This code is used in the Adzerk Ad Delivery Platform (http://adzerk.com) and is well tested and performs at high scale.
+
+MEMORY CACHING
+
+There are two options available:
+
+GEOIP_STANDARD - read database from filesystem, uses least memory.
+
+GEOIP_MEMORY_CACHE - load database into memory, faster performance
+        but uses more memory
+
+Copyright 2009 MaxMind Inc
+Licensed under the LGPL
