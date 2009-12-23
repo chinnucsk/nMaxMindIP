@@ -19,3 +19,4 @@ _ReSharper.*/
 *.user
 App_Data/
 *.dat
+*.DS_Store
