@@ -582,13 +582,9 @@ public class LookupService
 
 	public LookupService (String databaseFile, MemoryMode memoryMode)
 	{
-		try {
 			this.file = new FileStream (databaseFile, FileMode.Open, FileAccess.Read);
 			this.memoryMode = memoryMode;
 			init ();
-		} catch (System.SystemException) {
-			Console.Write ("cannot open file " + databaseFile + "\n");
-		}
 	}
 
 	public LookupService (String databaseFile) : this(databaseFile, MemoryMode.Standard)
