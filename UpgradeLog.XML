@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="nMaxMindIP">
+</Property><Property Name="Solution File" Value="C:\Users\James\Documents\Projects\nMaxMindIP\nMaxMindIP.sln">
+</Property><Property Name="User Options File" Value="C:\Users\James\Documents\Projects\nMaxMindIP\nMaxMindIP.suo">
+</Property><Property Name="Date" Value="Thursday, May 06, 2010">
+</Property><Property Name="Time" Value="13:31 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="nMaxMindIP.sln" Description="File successfully backed up as C:\Users\James\Documents\Projects\nMaxMindIP\Backup\nMaxMindIP.sln">
+</Event><Event ErrorLevel="0" Project="" Source="nMaxMindIP.suo" Description="File successfully backed up as C:\Users\James\Documents\Projects\nMaxMindIP\Backup\nMaxMindIP.suo">
+</Event><Event ErrorLevel="0" Project="nMaxMindIP.Tests" Source="nMaxMindIP.Tests\nMaxMindIP.Tests.csproj" Description="Project file successfully backed up as C:\Users\James\Documents\Projects\nMaxMindIP\Backup\nMaxMindIP.Tests\nMaxMindIP.Tests.csproj">
+</Event><Event ErrorLevel="0" Project="nMaxMindIP.Tests" Source="nMaxMindIP.Tests\AssemblyInfo.cs" Description="File successfully backed up as C:\Users\James\Documents\Projects\nMaxMindIP\Backup\nMaxMindIP.Tests\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="nMaxMindIP.Tests" Source="nMaxMindIP.Tests\LookupService_Should.cs" Description="File successfully backed up as C:\Users\James\Documents\Projects\nMaxMindIP\Backup\nMaxMindIP.Tests\LookupService_Should.cs">
+</Event><Event ErrorLevel="2" Project="nMaxMindIP.Tests" Source="nMaxMindIP.Tests\GeoIP.dat" Description="Failed to backup file as C:\Users\James\Documents\Projects\nMaxMindIP\Backup\nMaxMindIP.Tests\GeoIP.dat">
+</Event><Event ErrorLevel="2" Project="nMaxMindIP.Tests" Source="nMaxMindIP.Tests\GeoLiteCity.dat" Description="Failed to backup file as C:\Users\James\Documents\Projects\nMaxMindIP\Backup\nMaxMindIP.Tests\GeoLiteCity.dat">
+</Event><Event ErrorLevel="0" Project="nMaxMindIP.Tests" Source="nMaxMindIP.Tests\nMaxMindIP.Tests.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="nMaxMindIP.Tests" Source="nMaxMindIP.Tests\nMaxMindIP.Tests.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="nMAxMindIP" Source="nMaxMindIP\nMAxMindIP.csproj" Description="Project file successfully backed up as C:\Users\James\Documents\Projects\nMaxMindIP\Backup\nMaxMindIP\nMAxMindIP.csproj">
+</Event><Event ErrorLevel="0" Project="nMAxMindIP" Source="nMaxMindIP\Country.cs" Description="File successfully backed up as C:\Users\James\Documents\Projects\nMaxMindIP\Backup\nMaxMindIP\Country.cs">
+</Event><Event ErrorLevel="0" Project="nMAxMindIP" Source="nMaxMindIP\DatabaseInfo.cs" Description="File successfully backed up as C:\Users\James\Documents\Projects\nMaxMindIP\Backup\nMaxMindIP\DatabaseInfo.cs">
+</Event><Event ErrorLevel="0" Project="nMAxMindIP" Source="nMaxMindIP\Location.cs" Description="File successfully backed up as C:\Users\James\Documents\Projects\nMaxMindIP\Backup\nMaxMindIP\Location.cs">
+</Event><Event ErrorLevel="0" Project="nMAxMindIP" Source="nMaxMindIP\LookupService.cs" Description="File successfully backed up as C:\Users\James\Documents\Projects\nMaxMindIP\Backup\nMaxMindIP\LookupService.cs">
+</Event><Event ErrorLevel="0" Project="nMAxMindIP" Source="nMaxMindIP\Region.cs" Description="File successfully backed up as C:\Users\James\Documents\Projects\nMaxMindIP\Backup\nMaxMindIP\Region.cs">
+</Event><Event ErrorLevel="0" Project="nMAxMindIP" Source="nMaxMindIP\RegionName.cs" Description="File successfully backed up as C:\Users\James\Documents\Projects\nMaxMindIP\Backup\nMaxMindIP\RegionName.cs">
+</Event><Event ErrorLevel="0" Project="nMAxMindIP" Source="nMaxMindIP\ChangeLog" Description="File successfully backed up as C:\Users\James\Documents\Projects\nMaxMindIP\Backup\nMaxMindIP\ChangeLog">
+</Event><Event ErrorLevel="0" Project="nMAxMindIP" Source="nMaxMindIP\README" Description="File successfully backed up as C:\Users\James\Documents\Projects\nMaxMindIP\Backup\nMaxMindIP\README">
+</Event><Event ErrorLevel="0" Project="nMAxMindIP" Source="nMaxMindIP\nMAxMindIP.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="nMAxMindIP" Source="nMaxMindIP\nMAxMindIP.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="nMaxMindIP.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="nMaxMindIP.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="nMaxMindIP.Tests" Source="nMaxMindIP.Tests\nMaxMindIP.Tests.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="nMAxMindIP" Source="nMaxMindIP\nMAxMindIP.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>
