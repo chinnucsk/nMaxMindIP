@@ -18,7 +18,10 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 using System;
+using System.Collections;
+using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 
 public class Country
 {
@@ -38,4 +41,31 @@ public class Country
 	/// Returns the name of the country
 	/// </summary>
 	public string Name { get; set; }
+    
+
+    public SortedDictionary<string, string> Regions
+    {
+        get
+        {
+            return Region.GEOIP_REGION_NAME[Code] as SortedDictionary<string, string>;
+        }
+    }
+
+
+    public static List<Country> AllCountries { get; set; }
+
+    public static List<Country> GetAllCountries()
+    {
+        if(AllCountries != null)
+            return AllCountries;
+
+        var countries = new List<Country>();
+
+        for (var i = 0; i < LookupService.CountryCodes.Length; i++)
+            countries.Add(new Country(LookupService.CountryCodes[i], LookupService.CountryNames[i]));
+
+        AllCountries = countries.OrderBy(x => x.Name).ToList(); ;
+
+        return AllCountries;
+    }
 }

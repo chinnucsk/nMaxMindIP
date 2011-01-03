@@ -1,4 +1,8 @@
-2.0 Dec   th, 2009
+2.1 Aug 12, 2010
+  - Added AllCountries property to Country class.
+  - Added Regions property to Country class.
+  - Added MetroCodes to Region class. Removed RegionName and moved static functionality to Region.
+2.0 Dec 20th, 2009
     - Forked the official code.
     - Refactored to follow .NET conventions
     - Refactored examples into a test library using xUnit.NET

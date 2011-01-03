@@ -68,7 +68,7 @@ public class LookupService
 	private const int CANADA_OFFSET = 677;
 	private const int WORLD_OFFSET = 1353;
 
-	private static string[] CountryCodes = {
+	public static string[] CountryCodes = {
 		"--",
 		"AP",
 		"EU",
@@ -324,7 +324,7 @@ public class LookupService
 		"MF"
 	};
 
-	private static string[] CountryNames = {
+	public static string[] CountryNames = {
 		"N/A",
 		"Asia/Pacific Region",
 		"Europe",
@@ -897,7 +897,7 @@ public class LookupService
 			str_length = 0;
 			
 			// get region_name
-			record.RegionName = RegionName.GetRegionName (record.CountryCode, record.Region);
+			record.RegionName = Region.GetRegionName (record.CountryCode, record.Region);
 			
 			// get city
 			while (record_buf[record_buf_offset + str_length] != '\0')
